@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'dev.alaukik.aloovoice'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'dev.alaukik.aloovoice'
+        minSdk 23
+        targetSdk 30
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
